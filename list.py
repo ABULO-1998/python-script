@@ -29,3 +29,25 @@ print(courses)
 #pop remove the last value on list
 lastvalue=courses.pop()
 print(lastvalue)
+
+#sorting list
+
+courses.sort()
+nums.sort()
+nums.sort(reverse=True)
+courses.sort(reverse=True)
+print(nums)
+print(courses)
+
+print(min(nums))
+print(max(nums))
+print(sum(nums))
+
+#Loops in lists
+for item in courses:
+    print(item)
+    
+#enumerate gives both index and value
+for index, course in enumerate(courses):
+    print(index, course)
+
